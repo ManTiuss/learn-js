@@ -1,0 +1,11 @@
+.myDiv {
+    display: none;
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    border: 1px solid gray;
+}
