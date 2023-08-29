@@ -1,4 +1,4 @@
-.myDiv {
+/* .myDiv {
     display: none;
     position: fixed;
     right: 10px;
@@ -8,4 +8,39 @@
     height: 100px;
     background-color: lightgray;
     border: 1px solid gray;
-}
+} */
+
+.slider {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .slide {
+    display: none;
+    width: 100%;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
