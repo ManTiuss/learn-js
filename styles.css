@@ -1,0 +1,17 @@
+#categories, #products, #product-info {
+    float: left;
+    width: 33%;
+    height: 300px;
+    overflow-y: scroll;
+}
+#categories ul, #products ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#categories li, #products li {
+    cursor: pointer;
+}
+#product-info {
+    display: none;
+}
