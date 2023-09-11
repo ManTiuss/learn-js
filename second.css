@@ -1,50 +1,75 @@
-/* Стилізація форми */
-form {
-    max-width: 400px;
-    margin: 0 auto;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
 }
 
-label,
-input,
-select,
-textarea {
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+label {
     display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
     margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
 }
 
 input[type="radio"],
 input[type="checkbox"] {
-    display: inline-block;
     margin-right: 5px;
 }
 
-textarea {
-    height: 100px;
-}
-
-input[type="submit"] {
-    background-color: #122e13;
-    color: white;
-    padding: 10px 20px;
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
     border: none;
-    border-radius: 4px;
+    padding: 10px 20px;
+    border-radius: 3px;
     cursor: pointer;
 }
 
-/* Стилізація таблиці результатів */
 table {
-    border-collapse: collapse;
     width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
-th,
-td {
-    border: 1px solid #ddd;
+th, td {
+    border: 1px solid #ccc;
     padding: 8px;
     text-align: left;
 }
 
 th {
-    background-color: #4caf50;
-    color: white;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+#userData {
+    display: none;
 }
