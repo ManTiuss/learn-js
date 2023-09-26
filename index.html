@@ -8,22 +8,17 @@
 </head>
 <body>
 
-    <div id="categories">
-        <ul>
-            <li data-category="books">Книги</li>
-            <li data-category="electronics">Електроніка</li>
-            <li data-category="clothes">Одяг</li>
-        </ul>
-    </div>
-    <div id="products">
-        <ul></ul>
-    </div>
-    <div id="product-info">
-        <h2></h2>
-        <p></p>
-        <button id="buy-button">Купити</button>
-    </div>
-
-    <script src="/main.js"></script>
+  <h1>Погода у Львові</h1>
+  <div class="weather-data">
+      <p>Температура: <span id="temperature"></span>°C</p>
+      <p>Тиск: <span id="pressure"></span> мм ртутного стовпчика</p>
+      <p>Опис: <span id="description"></span></p>
+      <p>Вологість: <span id="humidity"></span>%</p>
+      <p>Швидкість вітру: <span id="wind-speed"></span> м/с</p>
+      <p>Напрям вітру: <span id="wind-deg"></span>°</p>
+      <img src="./img/weather.png" id="weather-icon" alt="weather">
+  </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./Weather.js"></script>
 </body>
 </html>
